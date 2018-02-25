@@ -1,0 +1,29 @@
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-image: url(startup-pic.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+.text {
+	font-family: 'Bungee Inline', cursive;
+	color: red;
+}
+
+.container {
+	display: flex;
+	justify-content: flex-end: center;
+	flex-wrap: wrap;
+}
+
+.btn-danger:hover {
+	background-color: green;
+	cursor: pointer;
+}
